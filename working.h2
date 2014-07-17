@@ -15,3 +15,23 @@ Storage Outline:
 	
 
 Index Outline:
+
+
+TimeTrack
+	Users
+		ID
+		Username
+		Password
+		ect
+		Organization
+		UID
+	Organization
+		ID
+		Name
+		Permissions
+	Hours
+		UID
+		Current Week
+		Previous Week Total
+		Previous Week
+		Previous Week Total
