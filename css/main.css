@@ -26,6 +26,12 @@
 	color:	#222;
 	text-shadow: 3px 2px 3px #555;
 }
+.title{
+	text-align: left;
+	font-family: Times;
+	font-size: 20px;
+	color: #222;
+}
 .body{
 	text-align: left;
 	font-family: Times;
