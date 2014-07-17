@@ -1,9 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
   background: #f96e5b;
-  width: 70%;
-  margin-left: auto;
+  width: 100%;
   margin-right: auto;
+  margin-left: auto;
 }
 #cssmenu ul {
   list-style: none;
@@ -14,7 +14,7 @@
   zoom: 1;
 }
 #cssmenu ul:after {
-  content: " ";
+  content: ' ';
   display: block;
   font-size: 0;
   height: 0;
@@ -23,7 +23,7 @@
 }
 #cssmenu ul li {
   display: inline-block;
-  padding: 0;
+  padding: 0px;
   margin: 0;
 }
 #cssmenu.align-right ul li {
@@ -33,7 +33,6 @@
   text-align: center;
 }
 #cssmenu ul li a {
-  text-align: center;
   color: #ffffff;
   text-decoration: none;
   display: block;
@@ -56,7 +55,7 @@
   width: 100%;
 }
 #cssmenu ul li a:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   right: -3px;
@@ -67,7 +66,7 @@
   opacity: .5;
 }
 #cssmenu ul li a:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: 0;
