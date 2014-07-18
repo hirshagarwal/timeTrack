@@ -1,21 +1,48 @@
-#infobox {
-	background-color: #f96e5b;
-	width: 62%;
+#topbox {
+	background-color: #FFFFFF;
+	width: 95%;
 	padding: 20px;
-	margin-left: 1%;
-	margin-top: 35px;
-	height: 50px;
-	float: left;
+	margin-top: 1px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#mainbox{
+	background-color: #3399FF;
+	width: 65%;
+	padding: 25px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 60px;
+
+}
+.introHeader{
+	text-align: left;
+	font-family: "FS Albert Web 100","FS Albert Web","Calibri","Trebuchet MS",sans-serif;
+	font-size: 40px;
+	color: #FFFFFF;
+
+}
+.introText{
+	text-align: left;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
 }
 #buybox {
-	background-color: #f96e5b;
-	width: 25%;
+	background-color: #FFFFFF;
+	width: 65%;
 	padding: 25px;
 	height: 500px;
 	margin-left: 10px;
 	margin-top: 35px;
 	margin-right: 3%;
-	float: right;
+	border-color: gray;
+	border-width: 1px;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
 }
 .header{
 	text-align: center;

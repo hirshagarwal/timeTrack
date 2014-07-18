@@ -1,7 +1,7 @@
 Time Track by H2 Micro
 	Working Document
 
-Current Version: v.0.0.1 R4 (Nightly Build 16/07/14)
+Current Version: v.0.0.1 R5 (Nightly Build 17/07/14)
 
 Notes:
 	Keep API updated
@@ -35,3 +35,7 @@ TimeTrack
 		Previous Week Total
 		Previous Week
 		Previous Week Total
+
+Database
+	Table
+		Fields

@@ -1,9 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
-  background: #f96e5b;
+  background: #3399FF;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  box-shadow: 10px 10px 5px #888888;
 }
 #cssmenu ul {
   list-style: none;
