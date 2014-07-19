@@ -30,6 +30,7 @@ while($row = mysqli_fetch_array($result)){
 if($password == $dbPass){
 	echo "Joined Successfully!";
 	mysqli_query($con, "UPDATE Users SET organization='$name' WHERE username='$username'");
+	Header("Location: ../landingPage.html");
 
 } else {
 	echo "Authentication failed";
