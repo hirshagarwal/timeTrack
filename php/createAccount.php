@@ -3,6 +3,13 @@
 session_start();
 
 //REQUIRES LICENSE
+$licenseFile = "../../license.h2";
+$array = explode(";", file_get_contents($licenseFile));
+
+$db = $array[0];
+$host = $array[1];
+$user = $array[2];
+$pass = $array[3];
 
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -16,6 +23,6 @@ mysql_select_db($db) or die (mysql_error());
 
 $_SESSION['username'] = $username;
 
- header( 'Location:../joinOrganization.html');
+header( 'Location:../joinOrganization.html');
 
 ?>
