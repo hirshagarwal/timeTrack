@@ -19,8 +19,6 @@
 	 { strokeStyle:'rgb(0, 255, 0)', fillStyle:'rgba(0, 255, 0, 0.4)', lineWidth:3 });
 
 
-
-
 </script>
 
 </html>
