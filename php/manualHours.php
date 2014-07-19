@@ -2,6 +2,8 @@
 
 $start1 = $_POST['start1'];
 $end1 = $_POST['end1'];
+$start2 = $_POST['start2'];
+$end2 = $_POST['end2'];
 
 
 function roundToQuarterHour($time){
@@ -25,12 +27,16 @@ function roundToQuarterHour($time){
 
 $start1 = roundToQuarterHour($start1);
 $end1 = roundToQuarterHour($end1);
+$end2 = roundToQuarterHour($end2);
+$start2 = roundToQuarterHour($start2);
 
 //echo $end1;
 
 $hours = $end1 - $start1;
+$hours2 = $end2 - $start2;
 
+$totalHours = $hours + $hours2;
 
-echo $hours;
+echo $totalHours;
 
 ?>
