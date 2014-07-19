@@ -71,3 +71,18 @@
 	width: 300px;
 	height: 230px;
 }
+#organizationBox{
+	opacity: .9;
+	margin-top: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #3399FF;
+	border-radius: 25px;
+	width: 300px;
+	height: 200px;
+}
+#boxText{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}

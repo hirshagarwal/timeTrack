@@ -1,7 +1,7 @@
 Time Track by H2 Micro
 	Working Document
 
-Current Version: v.0.0.1 R6
+Current Version: v.0.0.1 R7 (Nightly Build 18/07/14)
 
 Notes:
 	Keep API updated
@@ -9,6 +9,8 @@ Notes:
 Tasks:
 	Work on data storage
 
+Organization Managers:
+	In the database 0 will represent a "normal member" and  1 is a manager
 
 Storage Outline:
 
