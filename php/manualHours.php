@@ -37,6 +37,6 @@ $hours2 = $end2 - $start2;
 
 $totalHours = $hours + $hours2;
 
-echo $totalHours;
+echo "Total Hours: $totalHours <br/> Shift 1: $hours <br/> Shift 2: $hours2";
 
 ?>
