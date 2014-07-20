@@ -19,6 +19,12 @@ $password = $_POST['password'];
 mysql_connect($host, $user, $pass) or die (mysql_error());
 mysql_select_db($db) or die (mysql_error());
 
+$result = mysql_query("SELECT * FROM Users WHERE username='$username'");
+while($row = mysql_fetch_array($result)){
+	header('Location: ../createAccount.html');
+	//Requires Error Page
+}
+
 	mysql_query("INSERT INTO Users(id, username, password, email, organization, status, uid) VALUES ('NULL', '$username', '$password', '$email', 'NULL', '0', 'NULL')") or die (mysql_error());
 
 $_SESSION['username'] = $username;
