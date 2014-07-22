@@ -1,4 +1,12 @@
 <?php
+//Start session
+session_start();
+//Check whether the session variable 'username' is present.
+if(!isset($_SESSION['username']) || (trim($_SESSION['username']) == ''))
+	{
+		header("location: login.html");
+		exit();
+	}
 
 $start1 = $_POST['start1'];
 $end1 = $_POST['end1'];
