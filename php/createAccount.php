@@ -21,7 +21,7 @@ mysql_select_db($db) or die (mysql_error());
 
 $result = mysql_query("SELECT * FROM Users WHERE username='$username'");
 while($row = mysql_fetch_array($result)){
-	header('Location: ../createAccount.html');
+	header('Location: error.php?error=accountExists');
 	//Requires Error Page
 }
 
