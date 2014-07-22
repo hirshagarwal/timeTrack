@@ -30,7 +30,7 @@ if($password = $dbPass){
 	echo "Logged in";
 	Header("Location: ../landingPage.html");
 } else {
-	echo "Authentication failed";
+	Header ("Location: error.php?error=badLogin");
 }
 
 ?>
