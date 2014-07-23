@@ -35,6 +35,7 @@ if($password == $dbPass){
 } else {
 	echo "Authentication failed";
 	//Warning: Need redirect to failure page
+	Header("Location: error.php?error=organizationJoinFail")
 }
 
 ?>
